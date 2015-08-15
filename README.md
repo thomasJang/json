@@ -2,12 +2,11 @@
 
 ## Usage
 
-```
-$ npm install json-nice
+```html
+<script src="json-pretty.js"></script>
+<pre class="prettyprint linenums" id="json-preview"></pre>
 ```
 
 ```js
-var format = require('json-nice');
-
-console.log(format(obj));
+$("#json-preview").html( jsonPretty({"JSON":"JSON"}) );
 ```
